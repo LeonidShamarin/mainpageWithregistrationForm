@@ -1,0 +1,96 @@
+:root {
+    --body-black: rgba(0, 30, 65, 1);
+    --z: rgba(255, 255, 255, 1);
+    --subtitle-1-font-family: "Roboto-Bold", Helvetica;
+    --subtitle-1-font-weight: 700;
+    --subtitle-1-font-size: 16px;
+    --subtitle-1-letter-spacing: 0px;
+    --subtitle-1-line-height: 150%;
+    --subtitle-1-font-style: normal;
+    --body-2-font-family: "Roboto-Regular", Helvetica;
+    --body-2-font-weight: 400;
+    --body-2-font-size: 14px;
+    --body-2-letter-spacing: 0.035px;
+    --body-2-line-height: 150%;
+    --body-2-font-style: normal;
+}
+
+#slider {
+    margin-left: 92px;
+}
+
+#slider-frame {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 302px;
+    height: 372px;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+    background-color: #f8f8fa;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#slider-frame .text-wrapper {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--subtitle-1-font-family);
+    font-weight: var(--subtitle-1-font-weight);
+    color: var(--body-black);
+    font-size: var(--subtitle-1-font-size);
+    letter-spacing: var(--subtitle-1-letter-spacing);
+    line-height: var(--subtitle-1-line-height);
+    font-style: var(--subtitle-1-font-style);
+}
+
+#slider-frame .about {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--body-2-font-family);
+    font-weight: var(--body-2-font-weight);
+    color: var(--body-black);
+    font-size: var(--body-2-font-size);
+    letter-spacing: var(--body-2-letter-spacing);
+    line-height: var(--body-2-line-height);
+    font-style: var(--body-2-font-style);
+}
+
+#slider-frame .group {
+    position: absolute;
+    width: 221px;
+    height: 219px;
+    top: 282px;
+    left: 192px;
+}
+
+#slider-frame .overlap-group {
+    position: relative;
+    width: 219px;
+    height: 219px;
+    background-color: #e3eeff;
+    border-radius: 109.5px;
+}
+
+#slider-frame .text-wrapper-2 {
+    position: absolute;
+    width: 92px;
+    height: 91px;
+    top: 18px;
+    left: 18px;
+    font-family: "Roboto-Black", Helvetica;
+    font-weight: 900;
+    color: var(--z);
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 62.4px;
+}
+
+#slider {
+    width: 1348px;
+    overflow: hidden;
+}

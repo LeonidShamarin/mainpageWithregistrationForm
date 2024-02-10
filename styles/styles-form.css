@@ -1,0 +1,218 @@
+/* Стилі для форми зв'язку */
+/* .contact-form {
+    display: flex;
+    margin-left: 320px;
+    height: 550px;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.0);
+    border-radius: 18px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+   
+} */
+
+/* #modal{
+    display: none;
+} */
+.contact-form {
+    display: flex;
+    left: 730px;
+    margin-right: auto;
+    width: 100%;
+    max-width: 800px;
+    height: 550px;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.0);
+    border-radius: 18px;
+    
+    position: fixed;
+    top: 119px;
+    transform: translateX(-50%);
+    z-index: 1000;
+    border-radius: 20px;
+    overflow: hidden;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.contact-form-img {
+    width: 400px;
+}
+
+.contact-form .close-icon {
+    width: 25px;
+    height: 30px;
+    position: relative;
+    background-color: #F3F4F6;
+    border: 0px #F3F4F6;
+    margin-top: 15px;
+    top: -10px;
+    right: -175px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2.5px;
+    padding-left: 3px;
+    cursor: pointer;
+}
+
+.contact-form-details {
+    width: 400px;
+    height: 550px;
+    padding: 35px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-color: var(--w);
+    border-radius: 0 20px 20px 0;
+
+}
+
+/* ааа */
+
+.form-title {
+    color: #001E41;
+    margin-top: -10px;
+    font-size: 34px;
+    font-family: var(--body-1-font-family);
+    font-weight: var(--body-1-font-weight);
+    line-height: 40.80px;
+    text-align: center;
+}
+
+
+.form-subtitle {
+    font-family: var(--body-2-font-family);
+    font-weight: var(--body-2-font-weight);
+    color: var(--body-black);
+    font-size: var(--body-2-font-size);
+    letter-spacing: var(--body-2-letter-spacing);
+    line-height: var(--body-2-line-height);
+    font-style: var(--body-2-font-style);
+}
+
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.form-field label,
+.form  label {
+    color: #909090;
+    font-size: 12px;
+    font-family: var(--body-2-font-family);
+    font-weight: var(--body-3-font-weight);
+    line-height: 15.60px;
+}
+
+.form-field input{
+    width: 316px;
+    padding: 8px;
+    background: white;
+    border-radius: 8px;
+    border: 1px #D5D5D6 solid;
+}
+
+.form .field {
+    border: 1px #D5D5D6 solid;
+    border-radius: 8px;
+}
+
+.field input {
+    font-size: 14px;
+    padding: 4px;
+    border: none;
+    outline: none;
+}
+
+.field label {
+    padding: 2px 0;
+    display: block;
+  
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.support-button {
+    height: 42px;
+    padding: 12px 41px;
+    background: #AED1FF;
+    border: 1px;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+    font-family: var(--body-2-font-family);
+    font-weight: var(--body-2-font-weight);
+    line-height: 18px;
+    text-align: center;
+}
+
+.contact-sales-button {
+    height: 42px;
+    padding: 12px 41px;
+    border: 1px;
+    background: #5D78FF;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+    font-family: var(--body-2-font-family);
+    font-weight: var(--body-2-font-weight);
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.terms {
+    display: flex;
+    margin-left: -25px;
+    font-size: 14px;
+    color: var(--body-gray);
+    gap: 5px;
+}
+
+.terms a {
+    color: #5D78FF;
+    font-size: 14px;
+    font-family: var(--body-2-font-family);
+    font-weight: var(--body-2-font-weight);
+    text-decoration: none;
+}
+
+.powered {
+    display: flex;
+    position: relative;
+    margin-top: -30px;
+
+}
+
+.powered-text {
+    margin-top: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+    font-family: var(--body-2-font-family);
+    font-weight: var(--body-2-font-weight);
+    color: var(--body-gray);
+    line-height: 14.06px;
+}
+.error-message{
+    color: red;
+    font-size: 12px;
+    font-family: var(--body-2-font-family);
+    font-weight: var(--body-2-font-weight);
+
+}
