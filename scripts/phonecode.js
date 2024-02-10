@@ -66,7 +66,7 @@ var countryRequesting = false;
             var self = this;
             var searchInput = $('<input type="text" class="country-phone-search" value="">');
             $(searchInput).appendTo(options);
-            var searchLabel = $('<label class="country-phone-search-label">Input your country name</label>');
+            var searchLabel = $('<label class="country-phone-search-label">Input your</label>');
             $(searchLabel).on('click',function(){
                 $(this).hide();
                 $(searchInput).focus();
@@ -366,8 +366,3 @@ var countryRequesting = false;
         }
     });
 })(jQuery);
-
-$.noConflict();
-jQuery(document).ready(function($) {
-    // ваш код jQuery тут
-});
