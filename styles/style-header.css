@@ -15,7 +15,7 @@
   --sample-large-text-font-style: normal;
 }
 
-header .header {
+.header {
   position: relative;
   height: 77px;
   width: 1440px;
@@ -114,4 +114,56 @@ header .header {
   line-height: var(--sample-large-text-line-height);
   white-space: nowrap;
   font-style: var(--sample-large-text-font-style);
+}
+
+
+@media only screen and (min-width: 601px) {
+
+  .header-group {
+    display: none;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .header .frame,
+  .header .links-sign-in,
+  .header .button {
+    display: none;
+  }
+
+
+  .header {
+    box-sizing: border-box;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .header .icon-logo {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-left: -52px;
+    margin-top: -50px;
+    width: 89px;
+    height: 21px;
+  }
+
+  .header .header-group {
+    display: block;
+    width: 24px;
+    height: 12px;
+    margin-right: 50px;
+
+  }
+
+
 }
