@@ -1,19 +1,6 @@
-/* Стилі для форми зв'язку */
-/* .contact-form {
-    display: flex;
-    margin-left: 320px;
-    height: 550px;
-    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.0);
-    border-radius: 18px;
-    position: relative;
-    border-radius: 20px;
-    overflow: hidden;
-   
-} */
-
-/* #modal{
+#modal{
     display: none;
-} */
+}
 
 .contact-form {
     display: flex;
@@ -66,6 +53,26 @@
     gap: 24px;
     background-color: var(--w);
     border-radius: 0 20px 20px 0;
+    left: 50%;
+    position: absolute;
+    transform: translateY(-100.7%);
+    
+
+    left: 50%;
+    position: absolute;
+    transform: translateY(-100.7%);
+    /* display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 800px;
+    height: 550px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 119px;
+    z-index: 1000; */
 }
 
 /* ааа */

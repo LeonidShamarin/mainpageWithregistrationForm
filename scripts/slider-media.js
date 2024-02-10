@@ -1,15 +1,21 @@
 import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
 window.onload = function () {
-  if (window.innerWidth <= 600) {
-    mediaSwiper();
-  }
+  checkScreenWidth();
 };
 
 window.onresize = function () {
-  if (window.innerWidth <= 601) {
-    mediaSwiper();
-  }
+  checkScreenWidth();
 };
+
+function checkScreenWidth() {
+  var screenWidth = window.innerWidth;
+
+  if (screenWidth <= 601) {
+    mediaSwiper();
+  } else if (screenWidth <= 1440) {
+    mediaSwiper2();
+  }
+}
 
 function mediaSwiper() {
   const swiper = new Swiper(".swiper-container ", {
@@ -19,6 +25,17 @@ function mediaSwiper() {
     pagination: {
       el: "#swiper-pagination",
       clickable: true,
+    },
+  });
+}
+function mediaSwiper2() {
+  const swiper = new Swiper(".swiper-container ", {
+    slidesPerView: 4.3,
+    spaceBetween: 20,
+
+    navigation: {
+      nextEl: "#swiper-button-next",
+      prevEl: "#swiper-button-prev",
     },
   });
 }
