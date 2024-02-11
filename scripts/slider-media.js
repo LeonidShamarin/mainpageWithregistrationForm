@@ -14,6 +14,8 @@ function checkScreenWidth() {
     mediaSwiper();
   } else if (screenWidth <= 1440) {
     mediaSwiper2();
+  } else {
+    mediaSwiper2();
   }
 }
 
