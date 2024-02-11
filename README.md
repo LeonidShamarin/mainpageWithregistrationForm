@@ -10,7 +10,7 @@ This repository contains the main page of a company website, along with a pop-up
 
 4. **SwiperJS Slider**: The website utilizes SwiperJS to implement a slider. This slider can be used to showcase different content, such as featured products, testimonials, or company updates.
 
-5. **Responsive Design**: The website is designed to be responsive, ensuring optimal viewing experience across various devices. It supports desktop screens with a width of 1440 pixels as well as mobile devices.
+5. **Responsive Design**: The website is designed to be responsive, ensuring optimal viewing experience across various devices. It supports desktop screens with a width of 1440 pixels as well as mobile devices 600px.
 
 **Demo**: [View Demo](https://leonidshamarin.github.io/mainpageWithregistrationForm/)
 
