@@ -12,8 +12,9 @@ This repository contains the main page of a company website, along with a pop-up
 
 5. **Responsive Design**: The website is designed to be responsive, ensuring optimal viewing experience across various devices. It supports desktop screens with a width of 1440 pixels as well as mobile devices.
 
+**Demo**: [View Demo](https://leonidshamarin.github.io/mainpageWithregistrationForm/)
+
 ## Dependencies
 
 - jQuery: Used for DOM manipulation and interaction, particularly in the pop-up registration form.
 - SwiperJS: Utilized to implement the slider functionality on the website.
-
