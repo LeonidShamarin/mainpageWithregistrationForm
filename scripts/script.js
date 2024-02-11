@@ -11,4 +11,4 @@ window.onclick = function (event) {
     closeModal();
   }
 };
-// setTimeout(openModal, 10000);
+setTimeout(openModal, 10000);
